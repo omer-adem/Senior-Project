@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kaynak Dosyalar">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyaları">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Engine">
+      <UniqueIdentifier>{f3ab0914-2b48-4e12-8c03-26a31227e161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\Engine">
+      <UniqueIdentifier>{b16d63ee-c543-43cb-a458-205bcb75818f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\Screens">
+      <UniqueIdentifier>{a0e74850-d8d0-45f4-99a8-b6bd34ff95ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\Panels">
+      <UniqueIdentifier>{5be9da12-2784-4efe-a23f-0e83e1161a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Panels">
+      <UniqueIdentifier>{33cbd333-1db5-44d8-8848-8ac6c4356139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Screens">
+      <UniqueIdentifier>{9dcdc9d3-cd2f-4827-95b7-cc3191acc1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Main">
+      <UniqueIdentifier>{5240bae2-6236-4a48-a1e7-8d0e352386eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\Input">
+      <UniqueIdentifier>{99bd321a-c7f8-4900-85ad-d9c6d36d4c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Input">
+      <UniqueIdentifier>{16f5d9c6-9a67-44be-9988-a1dd0ea74853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\Characters">
+      <UniqueIdentifier>{cb4573cd-214b-401b-b662-fe043d3f2ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\Characters">
+      <UniqueIdentifier>{c0e83185-0bf7-4e31-8b0d-b3968c91e1f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextureHolder.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Kaynak Dosyalar\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Kaynak Dosyalar\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="HintPanel.cpp">
+      <Filter>Kaynak Dosyalar\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuPanel.cpp">
+      <Filter>Kaynak Dosyalar\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuOptionsPanel.cpp">
+      <Filter>Kaynak Dosyalar\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Kaynak Dosyalar\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScreen.cpp">
+      <Filter>Kaynak Dosyalar\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Kaynak Dosyalar\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess Battle Simulation.cpp">
+      <Filter>Kaynak Dosyalar\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Kaynak Dosyalar\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePanel.cpp">
+      <Filter>Kaynak Dosyalar\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Kaynak Dosyalar\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuInput.cpp">
+      <Filter>Kaynak Dosyalar\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuOptionsInput.cpp">
+      <Filter>Kaynak Dosyalar\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="HintInput.cpp">
+      <Filter>Kaynak Dosyalar\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>Kaynak Dosyalar\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCharacter.cpp">
+      <Filter>Kaynak Dosyalar\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Kaynak Dosyalar\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTeam.cpp">
+      <Filter>Kaynak Dosyalar\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenInit.cpp">
+      <Filter>Kaynak Dosyalar\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenLogic.cpp">
+      <Filter>Kaynak Dosyalar\Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="FighterStates.cpp">
+      <Filter>Kaynak Dosyalar\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamStates.cpp">
+      <Filter>Kaynak Dosyalar\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopPanel.cpp">
+      <Filter>Kaynak Dosyalar\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopInput.cpp">
+      <Filter>Kaynak Dosyalar\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement.cpp">
+      <Filter>Kaynak Dosyalar\Characters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>Üst Bilgi Dosyaları\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHolder.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Üst Bilgi Dosyaları\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="HintPanel.h">
+      <Filter>Üst Bilgi Dosyaları\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuOptionsPanel.h">
+      <Filter>Üst Bilgi Dosyaları\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuPanel.h">
+      <Filter>Üst Bilgi Dosyaları\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScreen.h">
+      <Filter>Üst Bilgi Dosyaları\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Üst Bilgi Dosyaları\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Üst Bilgi Dosyaları\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Üst Bilgi Dosyaları\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Üst Bilgi Dosyaları\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePanel.h">
+      <Filter>Üst Bilgi Dosyaları\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Üst Bilgi Dosyaları\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuInput.h">
+      <Filter>Üst Bilgi Dosyaları\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuOptionsInput.h">
+      <Filter>Üst Bilgi Dosyaları\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="HintInput.h">
+      <Filter>Üst Bilgi Dosyaları\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteManager.h">
+      <Filter>Üst Bilgi Dosyaları\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>Üst Bilgi Dosyaları\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCharacter.h">
+      <Filter>Üst Bilgi Dosyaları\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Üst Bilgi Dosyaları\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterStates.h">
+      <Filter>Üst Bilgi Dosyaları\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamStates.h">
+      <Filter>Üst Bilgi Dosyaları\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTeam.h">
+      <Filter>Üst Bilgi Dosyaları\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Üst Bilgi Dosyaları\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Üst Bilgi Dosyaları\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Üst Bilgi Dosyaları\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopPanel.h">
+      <Filter>Üst Bilgi Dosyaları\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopInput.h">
+      <Filter>Üst Bilgi Dosyaları\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>Üst Bilgi Dosyaları\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Üst Bilgi Dosyaları\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
