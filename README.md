@@ -9,7 +9,8 @@ Genre of the game is Auto-Battler which is also known as "Auto Chess".
 
 The project uses OOP efficiently and all the classes are well placed in those categories (Characters, Engine, Input, Main, Panels and Screens). You can see the classes inside of categories in detail by .sln file of the project.
 
-
+# About AI in the Project
+The project uses State-Driven AI that troops will do an action based on current state. Also opponent CPU will try to buy best troops from the shop and beat the player.
 
 # Ingame Screenshots
 
